@@ -1,0 +1,14 @@
+{
+  "name": "youthway-server",
+  "version": "1.0.0",
+  "description": "repository youthway server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "agesta saputra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
