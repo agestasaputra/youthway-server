@@ -5,6 +5,10 @@ const api = require("./api");
 const app = express();
 const port = process.env.port || 4000;
 
+/* For Body Parser */
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 connectDB();
 app.use(api);
 

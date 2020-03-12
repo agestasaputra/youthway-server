@@ -1,9 +1,12 @@
 const express = require("express");
-const user = require("./user");
-const bodyParser = require("body-parser");
+const users = require("./users");
+const tshirts = require("./tshirts");
+const products = require("./products");
 
 const app = express();
 
-app.use("/api", user);
+app.use("/api", users);
+app.use("/api", tshirts);
+app.use("/api", products);
 
 module.exports = app;
